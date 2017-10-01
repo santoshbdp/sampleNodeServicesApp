@@ -17,7 +17,7 @@ mongoose.connect("mongodb://santosh:October2017@ds013946.mlab.com:13946/testdbro
 
 //on successful db connection
 mongoose.connection.on("connected", ()=>{
-    console.log("Connected to Mongodb at port: 27017");
+    console.log("Connected to Mongodb at port: Matlab");
 });
 
 mongoose.connection.on("error", (err)=>{
